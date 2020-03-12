@@ -1,0 +1,136 @@
+.intro {
+    font-size: 6vw;
+    text-align: center;
+    color: aliceblue;
+}
+
+.border {
+    width: none;
+    height: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: rgba(1, 4, 196, 0.685);
+}
+
+.foto img {
+    width: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    color: white;
+    font-style: bold;
+    font-size: large;
+}
+
+table,
+th,
+td {
+    border-width: 10px;
+    border: solid;
+    width: 40%;
+    border-color: rgb(255, 255, 255);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tablet {
+    width: 50%
+}
+
+.tabelpertama {
+    background-color: turquoise;
+}
+
+.tabelkedua {
+    background-color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+    background-color: rgb(12, 61, 126);
+    text-align: center;
+    color: white;
+}
+
+th {
+    background-color: rgb(47, 255, 64);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(255, 253, 253, 0.671);
+}
+
+h1 {
+    color: aliceblue;
+    font-style: normal;
+}
+
+.selamatdatang {
+    background-color: rgba(0, 0, 0, 0.322);
+    width: none;
+    height: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.backgroundfoto {
+    background-color: rgba(1, 4, 196, 0.685);
+    width: none;
+    height: none;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.backgroundlagi {
+    background-color: rgba(0, 0, 0, 0.322);
+    width: none;
+    height: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.huruf {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.biodata {
+    font-size: 100px;
+}

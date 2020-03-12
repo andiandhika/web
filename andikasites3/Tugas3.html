@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator aritmatika</title>
+</head>
+
+<body>
+    <center>
+        <h1>CALCULATOR</h1>
+    </center>
+    <script type="text/javascript">
+        function hitung() {
+            a = eval(form.a.value);
+            b = eval(form.b.value);
+            c = eval(form.c.value);
+            d = eval(form.d.value);
+            e = eval(form.e.value);
+
+            average();
+            lowest();
+            highest();
+            median();
+        }
+
+        function average() {
+            averagess = (a + b + c + d + e) / 5;
+            form.averages.value = averagess;
+        }
+
+        function lowest() {
+            var number = [a, b, c, d, e]
+            var minimum = Math.min.apply(Math, number);
+            form.lowests.value = minimum
+        }
+
+        function highest() {
+            var number = [a, b, c, d, e];
+            form.highests.value = Math.max.apply(Math, number);
+        }
+
+        function median() {
+            const median = [a, b, c, d, e];
+            const med = median.sort();
+            const midl = Math.ceil(median.length / 2);
+            const medianFunc = median.length % 2 == 0 ? (med[midl] + med[midl - 1]) / 2 : med[midl];
+            form.medians.value = medianFunc;
+        }
+    </script>
+    <style>
+        body {
+            background-color: paleturquoise;
+        }
+        
+        form {}
+    </style>
+    <form name="form">
+        <center>
+            <p>Nilai - 1 <input type="text" name="a"></p>
+            <p>Nilai - 2 <input type="text" name="b"></p>
+            <p>Nilai - 3 <input type="text" name="c"></p>
+            <p>Nilai - 4 <input type="text" name="d"></p>
+            <p>Nilai - 5 <input type="text" name="e"></p>
+
+            <input type="button" value="HITUNG" onclick="hitung()">
+            <input type="button" value="RESET" onclick="reset()">
+
+            <p>average <input type="text" name="averages"></p>
+            <p>lowest <input type="text" name="lowests"></p>
+            <p>highest <input type="text" name="highests"></p>
+            <p>median <input type="text" name="medians"></p>
+        </center>
+    </form>
+</body>
+
+</html>
