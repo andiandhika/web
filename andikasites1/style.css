@@ -50,11 +50,13 @@ td {
     float: center;
 }
 
-.linkas {
-    background-color: rgb(137, 210, 252);
+div {
+    background-color: black;
+    color: white;
+    width: 600px;
     margin: auto;
-    margin-left: 450px;
-    margin-right: 450px;
-    font-style: bold;
-    font-size: large;
+    background-attachment: fixed;
+    padding: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
