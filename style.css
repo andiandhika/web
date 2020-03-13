@@ -9,8 +9,9 @@ a {
 }
 
 h1 {
-    font-size: medium;
+    font-size: large;
     float: center;
+    font-style: bold;
 }
 
 table,
@@ -49,7 +50,13 @@ td {
     float: center;
 }
 
-.linkas {
-    float: center;
+div {
+    background-color: black;
     color: white;
+    width: 600px;
+    margin: auto;
+    background-attachment: fixed;
+    padding: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
