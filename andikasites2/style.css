@@ -24,7 +24,7 @@
         
         p {
             color: white;
-            font-style: bold;
+            font-style: normal;
             font-size: large;
         }
         
@@ -118,4 +118,13 @@
         
         .biodata {
             font-size: 100px;
+        }
+        
+        div {
+            color: white;
+            font-style: italic;
+        }
+        
+        .perubahan {
+            font-style: normal;
         }
