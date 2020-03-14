@@ -98,10 +98,9 @@
         
         .backgroundfoto {
             background-color: rgba(1, 4, 196, 0.685);
-            width: none;
+            width: 25vw;
             height: 27vw;
-            margin-left: 650px;
-            margin-right: 650px;
+            margin: auto;
             padding-top: 1vw;
             padding-bottom: 4vw;
             font-size: larger;
