@@ -98,23 +98,20 @@
         
         .backgroundfoto {
             background-color: rgba(1, 4, 196, 0.685);
-            width: 25vw;
-            height: 27vw;
-            margin: auto;
+            width: 500px;
+            height: 500px;
             padding-top: 1vw;
             padding-bottom: 4vw;
             font-size: larger;
+            padding: 4vw;
+            margin: auto;
         }
         
         .backgroundlagi {
             background-color: rgba(0, 0, 0, 0.322);
-            width: none;
-            height: none;
-            margin-left: auto;
-            margin-right: auto;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            margin: 10px;
+            width: 100vw;
+            padding-top: 1vw;
+            padding-bottom: 1vw;
         }
         
         .biodata {
