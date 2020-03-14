@@ -1,0 +1,62 @@
+body {
+    background-image: url("images.jpeg");
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    float: center;
+}
+
+h1 {
+    font-size: large;
+    float: center;
+    font-style: bold;
+}
+
+table,
+th,
+td {
+    float: center;
+    border-width: 10px;
+    border: solid;
+    width: 40%;
+    border-color: #FDF5E6;
+}
+
+table {
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tablet {
+    width: 50%
+}
+
+.tabelpertama {
+    float: center;
+    background-color: turquoise;
+}
+
+.tabelkedua {
+    background-color: wheat;
+    float: center;
+}
+
+td {
+    background-color: white;
+    text-align: center;
+    float: center;
+}
+
+div {
+    background-color: black;
+    color: white;
+    width: 600px;
+    margin: auto;
+    background-attachment: fixed;
+    padding: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
